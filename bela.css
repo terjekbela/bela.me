@@ -1,0 +1,40 @@
+body {
+    min-height:100vh;
+    display: grid;
+    place-items:center;
+    font-family:Roboto, sans-serif;
+    background-color:rgb(241, 243, 244);
+}
+.card {
+    width:80%;
+    max-width:600px;
+    height:350px;
+    background-color:white;
+    border-radius: .25rem;
+    box-shadow:rgba(60, 64, 67, 0.05) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    color:gray;
+    padding:2rem;
+}
+.name {
+    font-size:2.5rem;
+    letter-spacing:.1rem;
+    font-weight:300;
+}
+.card:hover .name span {
+    display:none;
+}
+.card:hover .name:before {
+    content:"Terjék Béla"
+}
+.title {
+    font-size:1.2rem;
+    font-weight:400;
+    text-transform:uppercase;
+    user-select: none;
+}
+.desc {
+    margin:1rem 0;
+    font-size:1rem;
+    font-weight:300;
+    user-select: none;
+}
