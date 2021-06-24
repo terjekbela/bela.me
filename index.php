@@ -21,7 +21,7 @@
 	</div>
 	<div class="links">
 	    <a href="https://github.com/terjekbela" target="blank">github.com/terjekbela</a><br/>
-	    <a href="#">skype</a><br/>
+	    <a href="skype:terjekbela?chat">skype</a><br/>
 	    <a href="#">public key</a><br/>
 	</div>
     </div>
